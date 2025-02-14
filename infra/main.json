@@ -56,15 +56,15 @@
     },
     "chatGptDeploymentName": {
       "type": "string",
-      "defaultValue": "gpt-4o"
+      "defaultValue": "gpt-4o-mini"
     },
     "chatGptModelName": {
       "type": "string",
-      "defaultValue": "gpt-4o"
+      "defaultValue": "gpt-4o-mini"
     },
     "chatGptModelVersion": {
       "type": "string",
-      "defaultValue": "2024-05-13"
+      "defaultValue": "2024-07-18"
     },
     "embeddingDeploymentName": {
       "type": "string",
@@ -113,7 +113,7 @@
     },
     "searchServiceSkuName": {
       "type": "string",
-      "defaultValue": "standard"
+      "defaultValue": "basic"
     },
     "storageServiceSku": {
       "type": "object",
@@ -301,7 +301,7 @@
             },
             "searchServiceSkuName": {
               "type": "string",
-              "defaultValue": "standard"
+              "defaultValue": "basic"
             },
             "searchServiceIndexName": {
               "type": "string",
@@ -549,10 +549,10 @@
                 "reserved": true
               },
               "sku": {
-                "name": "P0v3",
-                "tier": "Premium0V3",
-                "size": "P0v3",
-                "family": "Pv3",
+                "name": "B1",
+                "tier": "Basic1",
+                "size": "B1",
+                "family": "B1",
                 "capacity": 1
               },
               "kind": "linux"
